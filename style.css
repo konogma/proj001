@@ -35,3 +35,46 @@
         rotate: 360deg;
     }
 }
+
+
+.text{
+    text-align: center;
+    position: absolute;
+    z-index: -10;
+    margin-left: 400px;
+    margin-top: 80px;
+  
+}
+#container {
+    border: 2px solid red ;
+    height: 160px;
+    perspective: 800px;
+}
+
+.door {
+    width: 250px;
+    height: 150px;
+    margin-left: 145px;
+    border: 2px solid red ;
+    background-color: blueviolet; 
+}
+
+#container:hover>#left {
+    background-color: rgb(174, 162, 185);
+    transition: 1s;    
+    transform: rotateY(45deg);    
+}
+
+#left {
+    transform-origin: 0%;
+}
+
+#right {
+    transform-origin: 100%;    
+}
+
+#container:hover>#right {
+    background-color: rgb(174, 162, 185);
+    transition: 1s;
+    transform: rotateY(-45deg);    
+}
