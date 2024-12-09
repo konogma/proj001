@@ -1,142 +1,25 @@
-#square{
-    width: 200px;
-    height: 200px;
-    border: 10px solid;
-    border-color: aqua ;
-    border-radius: 50%;
+.ol{
+    width: 300px;
+    border: 2px solid rgb(214, 137, 137);
+    background-color: rgb(199, 163, 163);
+    padding: 30px;
+    color: rgb(148, 89, 89);
 }
-#sec{
-    position: absolute;
-    width: 70px;
-    border: 3px solid;
-    border-color: aqua ;
-    margin-top: -115px;
-    margin-left: 110px ;
-    animation: mov 50s linear infinite;
-    transform-origin: 0%;
+html{
+    scroll-behavior: smooth;
 }
-
-#min{
-    position: absolute;
-    margin-top: -115px;
-    margin-left: 110px;
-    width: 100px;
-    border: 3px solid;
-    border-color: aqua ;
-    animation: mov 30s linear  infinite;
-    transform-origin: 0px 
-    
+.bottom_line:hover{
+    text-decoration:underline;
     
 }
-@keyframes mov{
-    from{ 
-    }
-    to{
-        rotate: 360deg;
-    }
-}
-
-
-.text{
-    text-align: center;
-    position: absolute;
-    z-index: -10;
-    margin-left: 400px;
-    margin-top: 80px;
-  
-}
-#container {
-    border: 2px solid red ;
-    height: 160px;
-    perspective: 800px;
-}
-
-.door {
-    width: 250px;
-    height: 150px;
-    margin-left: 145px;
-    border: 2px solid red ;
-    background-color: blueviolet; 
-}
-
-#container:hover>#left {
-    background-color: rgb(174, 162, 185);
-    transition: 1s;    
-    transform: rotateY(45deg);    
-}
-
-#left {
-    transform-origin: 0%;
-}
-
-#right {
-    transform-origin: 100%;    
-}
-
-#container:hover>#right {
-    background-color: rgb(174, 162, 185);
-    transition: 1s;
-    transform: rotateY(-45deg);    
-}
-
-
-#container2{
-    width: 800px;
-    height: 600px;
-    border: 1px solid;
-    margin-top: 20px;
-    margin-left: 100px;
-}
-#box1{
-    width: 400px;
-    height: 200px;
-    border: 1px solid;
-    margin-left: 400px;
-    margin-top: -202px;
+#fon{
+    background-image: url(foto/list.jpg);
 
 }
-#box2{
-      width: 400px;
-    height: 200px;
-    border: 1px solid;
-    margin-top: -203px ;
-    
-
-}
-#box3{
-    width: 400px;
-    height: 200px;
-    border: 1px solid;
-    margin-left: 400px;
-    margin-top: -203px;
-}
-#text1{
-    width: 400px;
-    height: 200px;
-    border: 1px solid;
-}
-#text2{
-    width: 400px;
-    height: 200px;
-    border: 1px solid;
-    margin-left: 400px;
-}
-#text3{
-    width: 400px;
-    height: 200px;
-    border: 1px solid;
-}
-.t{
-    text-align: center;
-    margin-top: 100px;
-}
-#box3:hover{
-  transform: scale(1.3);
-  transition: 1s;
-  overflow: hidden;
-    
- }
-#container2:hover{
-   filter: grayscale(0.4);
-   transition: 1s;
+#fon2{
+    background-color: rgb(199, 163, 163, 0.5);
+    /* width: 50%; */
+    margin: auto 300px;
+    padding: 20px;
+   
 }
