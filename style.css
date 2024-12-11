@@ -14,7 +14,8 @@ html{
 }
 #fon{
     background-image: url(foto/list.jpg);
-
+    background-size: cover;
+background-attachment: fixed;
 }
 #fon2{
     background-color: rgb(199, 163, 163, 0.5);
@@ -22,4 +23,16 @@ html{
     margin: auto 300px;
     padding: 20px;
    
+}
+#cats_gallary{
+    border: 2px solid gray;
+    margin-top: 100px;
+    margin-bottom: 300px;
+    background-color: lightgray;
+    height: 400px;
+    width: 428px;
+}
+#cats_gallary a{
+    display: inline-block;
+    border: 2px solid gray;
 }
